@@ -3,8 +3,8 @@ let val = false
 // console.log(typeof score)
 let stringtonum = Number(score)
 let boolcon = Number(val)
-console.log(typeof boolcon);
-console.log(boolcon);
+// console.log(typeof boolcon);
+// console.log(boolcon);
 // console.log(typeof(stringtonum));
 // console.log(stringtonum);     //prints NaN
 
@@ -20,8 +20,17 @@ true => 1
 let loggedin = 1
 let binarytobool = Boolean(loggedin)
 
-console.log(binarytobool);
+// console.log(binarytobool);
 
 let somenum = 33
 let numtostring = String(somenum)
-console.log(typeof numtostring);
+// console.log(typeof numtostring);
+
+
+
+//***********************Operation*********************** */
+
+let value = 3
+let negval = -value
+console.log(negval);
+
