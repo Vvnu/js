@@ -45,4 +45,31 @@ let obj  =
 const myfunction =  function vi(){          // function declaration and storing it in variable
 return "hey baby";
 }
-console.log(myfunction())
+// console.log(myfunction())
+
+
+//  ************memory***************
+
+// Stack  and heap memory
+
+// Stack (primmitive)   copy of variable is created and used further
+
+// Heap (non priitive type)   reference of the variable is created any change will affect the original value
+
+let myname = "vini"
+
+let anothername = myname
+anothername = "ishu"
+
+console.log(myname);
+console.log(anothername);
+
+
+let obj1 = {
+    email: "Vini.com",
+    money: 20000
+}
+let obj2;
+obj2 = obj1
+console.log(obj1)
+
